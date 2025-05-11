@@ -1,5 +1,6 @@
 header{
-    background-color: rgb(18, 49, 107);
+    background-color: rgb(117, 117, 117);
+    text-align: center;
     padding: 20px 0;
 }
 
@@ -10,7 +11,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: aliceblue;
+    color: rgb(88, 8, 8);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -28,55 +29,53 @@ nav {
     right: 0;
 }
 
-.logo, img {
+.logo {
     width: 250px;
 }
-
 .produtos {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px o;
 }
 
 .produtos li {
+
     display: inline-block;
     text-align: center;
-    width: 30%;
+     width: 30%;
     vertical-align: top;
-    margin: 0 1%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 10px;
+    margin: 0 1;
+    box-shadow:border-box;
+    border: 2px solid black   
 }
-
 .produtos h2 {
-    font-size: 30px;
+
+    font: size 30px;
     font-weight: bold;
-}
+} 
 
 .produto-descricao {
+    
     font-size: 18px;
+    font-weight: 12;
 }
 
-.produto-preco {
+.produtos-preco {
+
     font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+    font-weight:bold;
+    margin-top: 18px;
+}
+nav a:hover {
+    color: blue;
+    text-decoration: blue;
 }
 
-nav a:hover{
-    color: rgb(154, 192, 241);
-}
-
-.produtos li:hover {
-    border-color: rgb(154, 192, 241);
+.produto-li:hover {
+    border-color: aqua;
 }
 
 .produtos li:active {
-    border-color: blue
+    border-color: bisque;
 }
 
-.produtosss li:hover h2 {
-    font-size: 34px;
-}
